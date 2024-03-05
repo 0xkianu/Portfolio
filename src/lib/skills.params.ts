@@ -41,12 +41,12 @@ const MY_SKILLS = [
 		name: 'HTML'
 	}),
 	s({
-		slug: 'sass',
-		color: 'pink',
+		slug: 'python',
+		color: 'yellow',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass'
+		logo: Assets.Python,
+		name: 'Python'
 	}),
 	s({
 		slug: 'reactjs',
@@ -57,12 +57,75 @@ const MY_SKILLS = [
 		name: 'React Js'
 	}),
 	s({
-		slug: 'svelte',
+		slug: 'aws',
 		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte'
-	})
+		description: '',
+		logo: Assets.AWS,
+		name: 'AWS'
+	}),
+	s({
+		slug: 'bootstrap',
+		color: 'purple',
+		description: '',
+		logo: Assets.Bootstrap,
+		name: 'Bootstrap'
+	}),
+	s({
+		slug: 'django',
+		color: 'green',
+		description: '',
+		logo: Assets.Django,
+		name: 'Django'
+	}),
+	s({
+		slug: 'nodejs',
+		color: 'green',
+		description: '',
+		logo: Assets.NodeJs,
+		name: 'NodeJs'
+	}),
+	s({
+		slug: 'expressjs',
+		color: 'gray',
+		description: '',
+		logo: Assets.ExpressJs,
+		name: 'ExpressJs'
+	}),
+	s({
+		slug: 'nextjs',
+		color: 'gray',
+		description: '',
+		logo: Assets.NextJs,
+		name: 'NextJs'
+	}),
+	s({
+		slug: 'postgresql',
+		color: 'blue',
+		description: '',
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL'
+	}),
+	s({
+		slug: 'tailwind',
+		color: 'cyan',
+		description: '',
+		logo: Assets.Tailwind,
+		name: 'Tailwind'
+	}),
+	s({
+		slug: 'oracle',
+		color: 'red',
+		description: '',
+		logo: Assets.Oracle,
+		name: 'Oracle'
+	}),
+	s({
+		slug: 'reduxjs',
+		color: 'purple',
+		description: '',
+		logo: Assets.ReduxJs,
+		name: 'ReduxJs'
+	}),
 ];
 
 export default MY_SKILLS;

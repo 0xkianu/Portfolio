@@ -43,6 +43,7 @@ const Assets = {
 	JavaScript: a('js.png'),
 	Fastify: a('fastify.svg', 'fastify-dark.png'),
 	NestJs: a('nest.svg'),
+	NextJs: a('next-js.png'),
 	Quasar: a('quasar.svg'),
 	SolidJs: a('solid.svg'),
 	Electron: a('electron.png'),
@@ -70,7 +71,9 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Oracle: a('oracle.png'),
+	ReduxJs: a('redux.svg')
 };
 
 export default Assets;

@@ -46,35 +46,23 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Thomas',
+	lastName: 'Lee',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Prospective software engineer with 15+ years of experience in technology as a Database Administrator and Junior Full-Stack Developer. I am a dedicated problem solver and collaborative worker, with experience supporting enterprise-level projects.  Seeking a Back-end or Full-stack developer role where I can apply my knowledge and skill working with modern frameworks and programming languages.',
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/0xkianu/' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://www.linkedin.com/in/thomas-lee-43483829/'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
-		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
+			link: 'tulee@tutanota.com'
 		},
 		{
 			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
+			link: 'https://www.facebook.com/thomas.lee.568847'
 		}
 	]
 };
@@ -96,7 +84,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: 'https://thomasulee.netlify.app/assets/tlee-resume.pdf/'
 };
 
 export const SEARCH: SearchPageParams = {
