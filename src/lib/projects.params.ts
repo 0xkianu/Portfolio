@@ -1,66 +1,105 @@
 import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import type { Project } from './types';
+import { base } from '$app/paths';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'discord-chat-bot',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'An application which scrapes data from all channels in a Discord server, uploads the data into a Chroma DB Vector database and creates a pipeline to apply Retrieval Augmented Generation (RAG) on a Mistrel 7B large language model, enabling the model to answer questions related to the Discord server.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+			'A Discord chat bot using Mistrel Large Language Model.',
+		links: [{ to: 'https://github.com//Dutra-Apex//llm-joc', label: 'GitHub' }],
+		logo: Assets.Python,
+		name: 'Discord Chat Bot',
 		period: {
-			from: new Date()
+			from: new Date('01-Jan-2024')
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('python'),
+		type: 'Website Template',
 	},
 	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
+		slug: 'support-local',
+		color: '#5e95e3',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'A project to redesign and overhaul Support Local - A web ecosystem where local business owners can promote their businesses or charities, and consumers can search for deals and support non-profits',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+			'A web ecosystem where local business owners can promote their businesses or charities, and consumers can search for deals and support non-profits',
+		links: [{ to: 'https://xd.adobe.com//view//42f14507-e4fc-4890-abe6-e4ae32f1e2fa-17a2', label: 'Design' }],
+		logo: Assets.NextJs,
+		name: 'Support Local',
 		period: {
-			from: new Date()
+			from: new Date('01-Nov-2023')
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('nextjs', 'ts', 'postgresql'),
+		type: 'Website',
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
+				src: `${base}/images/support-local1.jpg`
 			},
 			{
-				label: '2',
-				src: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
+				label: 'screen 2',
+				src: `${base}/images/support-local2.jpg`
 			},
 			{
-				label: '3',
-				src: 'https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+				label: 'screen 3',
+				src: `${base}/images/support-local3.jpg`
 			},
 			{
-				label: '4',
-				src: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+				label: 'screen 4',
+				src: `${base}/images/support-local4.jpg`
 			},
 			{
-				label: '5',
-				src: 'https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+				label: 'screen 5',
+				src: `${base}/images/support-local5.jpg`
 			},
 			{
-				label: '6',
-				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+				label: 'screen 6',
+				src: `${base}/images/support-local6.jpg`
 			}
 		]
-	}
+	},
+	{
+		slug: 'offroad-fun-finder',
+		color: '#5e95e3',
+		description:
+			'An ios / android mobile and web application that allows users to discover off-road tracks, shops, trainers and events.',
+		shortDescription:
+		'An ios / android mobile and web application that allows users to discover off-road tracks, shops, trainers and events.',
+		links: [{ to: 'https://offroadfunfinder.com/', label: 'Website' }],
+		logo: Assets.ReactJs,
+		name: 'Off Road Fun Finder',
+		period: {
+			from: new Date('01-Sep-2023')
+		},
+		skills: getSkills('reactjs', 'ts', 'django'),
+		type: 'Website',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: `${base}/images/ORFF1.jpg`
+			},
+			{
+				label: 'screen 2',
+				src: `${base}/images/ORFF2.jpg`
+			},
+			{
+				label: 'screen 3',
+				src: `${base}/images/ORFF3.jpg`
+			},
+			{
+				label: 'screen 4',
+				src: `${base}/images/ORFF4.jpg`
+			},
+			{
+				label: 'screen 5',
+				src: `${base}/images/ORFF5.jpg`
+			}
+		]
+	},
 ];
 
 export default MY_PROJECTS;
