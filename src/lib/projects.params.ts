@@ -18,7 +18,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date('01-Jan-2024')
 		},
 		skills: getSkills('python'),
-		type: 'Website Template',
+		type: 'Data science application',
 	},
 	{
 		slug: 'support-local',
@@ -33,7 +33,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date('01-Nov-2023')
 		},
-		skills: getSkills('nextjs', 'ts', 'postgresql'),
+		skills: getSkills('nextjs', 'ts', 'postgresql', 'html', 'css','tailwind'),
 		type: 'Website',
 		screenshots: [
 			{
@@ -75,7 +75,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date('01-Sep-2023')
 		},
-		skills: getSkills('reactjs', 'ts', 'django'),
+		skills: getSkills('reactjs', 'ts', 'django','html','css'),
 		type: 'Website',
 		screenshots: [
 			{
