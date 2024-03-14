@@ -1,6 +1,6 @@
 import Assets from './data/assets';
 import type { Skill } from './types';
-import svelte from './md/svelte.md?raw';
+//import svelte from './md/svelte.md?raw';
 
 const s = (skill: Skill) => skill;
 
