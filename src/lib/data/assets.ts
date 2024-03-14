@@ -73,7 +73,10 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	Oracle: a('oracle.png'),
-	ReduxJs: a('redux.svg')
+	ReduxJs: a('redux.svg'),
+	DigitalCrafts: a('digital-crafts.png'),
+	GSU: a('GSU.jpg'),
+	GeorgiaTech: a('Georgia_Tech.svg')
 };
 
 export default Assets;

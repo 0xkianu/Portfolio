@@ -3,27 +3,39 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Full Stack Web Development Certificate',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'Remote',
+		logo: Assets.DigitalCrafts,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Digital Crafts',
+		period: { from: new Date(2022, 9, 1), to: new Date(2023, 4, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'digital-crafts-education',
+		subjects: ['Nodejs','Reactjs','Expressjs','Reduxjs','HTML','CSS','Bootstrap','Javascript']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Master of Business Administration',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Atlanta, GA',
+		logo: Assets.GSU,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Georgia State University',
+		period: { from: new Date(2009, 8, 1), to: new Date(2011, 12, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'georgia-state-education',
+		subjects: ['Computer Information Systems','Accounting']
+	},
+	{
+		degree: 'Bacheolr of Science in Computer Science',
+		description: '',
+		location: 'Atlanta, GA',
+		logo: Assets.GeorgiaTech,
+		name: '',
+		organization: 'Georgia Institute of Technology',
+		period: { from: new Date(1998, 8, 1), to: new Date(2003, 8, 1) },
+		shortDescription: '',
+		slug: 'georgia-tech-education',
+		subjects: ['C', 'Java', 'Computer Architecture', 'Algorithms and Data structures']
 	}
 ];
