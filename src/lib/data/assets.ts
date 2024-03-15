@@ -76,7 +76,10 @@ const Assets = {
 	ReduxJs: a('redux.svg'),
 	DigitalCrafts: a('digital-crafts.png'),
 	GSU: a('GSU.jpg'),
-	GeorgiaTech: a('Georgia_Tech.svg')
+	GeorgiaTech: a('Georgia_Tech.svg'),
+	Riskonnect: a('Riskonnect.png'),
+	Ventiv: a('ventiv.jpg'),
+	Techjoy: a('techjoy.jpg')
 };
 
 export default Assets;

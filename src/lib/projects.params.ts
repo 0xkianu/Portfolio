@@ -73,7 +73,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.ReactJs,
 		name: 'Off Road Fun Finder',
 		period: {
-			from: new Date('01-Sep-2023')
+			from: new Date('01-Sep-2023'), to: new Date('01-Nov-2023')
 		},
 		skills: getSkills('reactjs', 'ts', 'django','html','css'),
 		type: 'Website',

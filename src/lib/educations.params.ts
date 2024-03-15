@@ -27,7 +27,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		subjects: ['Computer Information Systems','Accounting']
 	},
 	{
-		degree: 'Bacheolr of Science in Computer Science',
+		degree: 'Bachelor of Science in Computer Science',
 		description: '',
 		location: 'Atlanta, GA',
 		logo: Assets.GeorgiaTech,
