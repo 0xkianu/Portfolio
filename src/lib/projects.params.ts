@@ -27,7 +27,7 @@ const MY_PROJECTS: Array<Project> = [
 			'A project to redesign and overhaul Support Local - A web ecosystem where local business owners can promote their businesses or charities, and consumers can search for deals and support non-profits',
 		shortDescription:
 			'A web ecosystem where local business owners can promote their businesses or charities, and consumers can search for deals and support non-profits',
-		links: [{ to: 'https://xd.adobe.com//view//42f14507-e4fc-4890-abe6-e4ae32f1e2fa-17a2', label: 'Design' }],
+		links: [{ to: 'https://supportlocalusa.com/', label: 'Design' }],
 		logo: Assets.NextJs,
 		name: 'Support Local',
 		period: {
